@@ -1,0 +1,15 @@
+[versions]
+kotlinx-coroutines-version="1.5.1"
+netty-version="4.1.67.Final"
+
+vertx-version="4.1.2"
+
+[libraries]
+kotlinx-coroutines-core = { module="org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref="kotlinx-coroutines-version" }
+
+netty-common = { module="io.netty:netty-common", version.ref="netty-version" }
+netty-transport = { module="io.netty:netty-transport", version.ref="netty-version" }
+
+vertx-core = { module="io.vertx:vertx-core", version.ref="vertx-version" }
+vertx-kotlin = { module="io.vertx:vertx-lang-kotlin", version.ref="vertx-version" }
+vertx-coroutines = { module="io.vertx:vertx-lang-kotlin-coroutines", version.ref="vertx-version" }
